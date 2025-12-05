@@ -1,12 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-28.68 38.120000000000005 357.2 196.16" width="357.2" height="196.16" style="display: block; max-width: 100%; height: auto; overflow: visible;">
-      <defs>
-        <animate id="mobile-cycle" begin="0s;mobile-cycle.end" dur="3.8728813559322033s"/>
-        
-        <style>
-          
-        </style>
-      </defs>
-      
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="-28.68 38.12 357.2 196.16"
+     width="357.2" height="196.16"
+     style="display:block;max-width:100%;height:auto;overflow:visible;">
+
+  <!-- 放样式就好，千万别把中文直接写在 style 里，会被当成非法 CSS -->
+  <defs>
+    <style>
+      /* 在这里写真正的 CSS */
+    </style>
+  </defs>
+
+  <!-- 作为“总计时器”的假动画：opacity 1 -> 1，不会有视觉变化 -->
+  <animate
+    id="mobile-cycle"
+    attributeName="opacity"
+    from="1"
+    to="1"
+    dur="3.6s"              <!-- 比原来的 3.87s 略短，循环间隔变短 -->
+    begin="0s; mobile-cycle.end"
+    fill="freeze"
+  />
+
+
       
       <g transform="translate(0, 0)">
       
