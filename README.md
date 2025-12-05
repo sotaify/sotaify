@@ -2,7 +2,7 @@
 
 ![][banner]
 
-<h1 align="center"><img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50px" style="max-width: 100%;"> Hi there, I'm </h1>
+<h1 align="center"><img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50px" style="max-width: 100%;"> Hi there, I'm sotaify</h1>
 
 A curious developer passionate about Artificial Intelligence & Web Development.
 
@@ -33,7 +33,7 @@ Hit me up anytime and let's explore new ideas together! 😺✨
 
 [banner]: ./assets/banner.webp
 [signature]: ./assets/signature.svg
-[social-bilibili-link]: https://space.bilibili.com/203396427
+[social-bilibili-link]: https://space.bilibili.com/76496
 [social-bilibili-shield]: https://img.shields.io/badge/-Bilibili-black?labelColor=black&logo=bilibili&logoColor=white&style=flat-square
 [social-wechat-link]: #
 [social-email-link]: mailto:i@arthals.ink
