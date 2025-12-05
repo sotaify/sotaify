@@ -31,7 +31,7 @@ Hit me up anytime and let's explore new ideas together! 😺✨
 
 <!-- SHIELD GROUP -->
 
-[banner]: ./assets/assets.mp4
+[banner]: ./assets/assets.gif
 [signature]: ./assets/signature.svg
 [social-bilibili-link]: https://space.bilibili.com/76496
 [social-bilibili-shield]: https://img.shields.io/badge/-Bilibili-black?labelColor=black&logo=bilibili&logoColor=white&style=flat-square
