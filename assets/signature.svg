@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-28.68 38.120000000000005 357.2 196.16" width="357.2" height="196.16" style="display: block; max-width: 100%; height: auto; overflow: visible;">
       <defs>
-        
+        <animate id="mobile-cycle" begin="0s;mobile-cycle.end" dur="3.58955223880597s"/>
         
         <style>
           
         </style>
       </defs>
-      <rect x="-28.68" y="38.120000000000005" width="357.2" height="196.16" fill="#ffffff" rx="12" />
+      
       
       <g transform="translate(0, 0)">
       
@@ -28,8 +28,16 @@
           attributeName="stroke-dashoffset"
           from="251"
           to="0"
-          dur="1s"
-          begin="0s"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 0s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="251"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 2.9402985074626864s"
           fill="freeze"
         />
       
@@ -38,7 +46,15 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="0.6s"
+          begin="mobile-cycle.begin + 0.08955223880597014s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="fill-opacity"
+          from="1"
+          to="0"
+          dur="0.3s"
+          begin="mobile-cycle.begin + 3s"
           fill="freeze"
         />
       </path>
@@ -61,8 +77,16 @@
           attributeName="stroke-dashoffset"
           from="222"
           to="0"
-          dur="1s"
-          begin="1s"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 0.14925373134328357s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="222"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 2.791044776119403s"
           fill="freeze"
         />
       
@@ -71,7 +95,15 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="1.6s"
+          begin="mobile-cycle.begin + 0.2388059701492537s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="fill-opacity"
+          from="1"
+          to="0"
+          dur="0.3s"
+          begin="mobile-cycle.begin + 2.8507462686567164s"
           fill="freeze"
         />
       </path>
@@ -94,8 +126,16 @@
           attributeName="stroke-dashoffset"
           from="246"
           to="0"
-          dur="1s"
-          begin="2s"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 0.29850746268656714s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="246"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 2.6417910447761193s"
           fill="freeze"
         />
       
@@ -104,7 +144,15 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="2.6s"
+          begin="mobile-cycle.begin + 0.38805970149253727s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="fill-opacity"
+          from="1"
+          to="0"
+          dur="0.3s"
+          begin="mobile-cycle.begin + 2.701492537313433s"
           fill="freeze"
         />
       </path>
@@ -127,8 +175,16 @@
           attributeName="stroke-dashoffset"
           from="319"
           to="0"
-          dur="1s"
-          begin="3s"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 0.4477611940298507s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="319"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 2.4925373134328357s"
           fill="freeze"
         />
       
@@ -137,7 +193,15 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="3.6s"
+          begin="mobile-cycle.begin + 0.5373134328358209s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="fill-opacity"
+          from="1"
+          to="0"
+          dur="0.3s"
+          begin="mobile-cycle.begin + 2.5522388059701493s"
           fill="freeze"
         />
       </path>
@@ -160,8 +224,16 @@
           attributeName="stroke-dashoffset"
           from="194"
           to="0"
-          dur="1s"
-          begin="4s"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 0.5970149253731343s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="194"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 2.343283582089552s"
           fill="freeze"
         />
       
@@ -170,7 +242,15 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="4.6s"
+          begin="mobile-cycle.begin + 0.6865671641791045s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="fill-opacity"
+          from="1"
+          to="0"
+          dur="0.3s"
+          begin="mobile-cycle.begin + 2.4029850746268657s"
           fill="freeze"
         />
       </path>
@@ -193,8 +273,16 @@
           attributeName="stroke-dashoffset"
           from="445"
           to="0"
-          dur="1s"
-          begin="5s"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 0.7462686567164178s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="445"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 2.1940298507462686s"
           fill="freeze"
         />
       
@@ -203,7 +291,15 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="5.6s"
+          begin="mobile-cycle.begin + 0.835820895522388s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="fill-opacity"
+          from="1"
+          to="0"
+          dur="0.3s"
+          begin="mobile-cycle.begin + 2.253731343283582s"
           fill="freeze"
         />
       </path>
@@ -226,8 +322,16 @@
           attributeName="stroke-dashoffset"
           from="517"
           to="0"
-          dur="1s"
-          begin="6s"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 0.8955223880597014s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="stroke-dashoffset"
+          from="0"
+          to="517"
+          dur="0.14925373134328357s"
+          begin="mobile-cycle.begin + 2.044776119402985s"
           fill="freeze"
         />
       
@@ -236,7 +340,15 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="6.6s"
+          begin="mobile-cycle.begin + 0.9850746268656716s"
+          fill="freeze"
+        />
+        <animate
+          attributeName="fill-opacity"
+          from="1"
+          to="0"
+          dur="0.3s"
+          begin="mobile-cycle.begin + 2.1044776119402986s"
           fill="freeze"
         />
       </path>
