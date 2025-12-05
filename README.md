@@ -36,5 +36,5 @@ Hit me up anytime and let's explore new ideas together! 😺✨
 [social-bilibili-link]: https://space.bilibili.com/76496
 [social-bilibili-shield]: https://img.shields.io/badge/-Bilibili-black?labelColor=black&logo=bilibili&logoColor=white&style=flat-square
 [social-wechat-link]: #
-[social-email-link]: mailto:i@arthals.ink
+[social-email-link]: mailto:admin@devifys.com
 [social-email-shield]: https://img.shields.io/badge/-Email-black?labelColor=black&logo=gmail&logoColor=white&style=flat-square
