@@ -17,33 +17,6 @@ I am an undergraduate student & been master
 
 
 
-### 💫 Tech Stack and Tools
-
-| Domain           | Skills                                                                |
-| :--------------- | :------------------------------------------------------------------------------------------------------------- |
-| Design           | ![][design-figma] ![][design-ps] ![][design-ai]|
-| Frontend         | ![][frontend-vue] ![][frontend-react] ![][frontend-js] ![][frontend-css]  ![][frontend-ts] |
-| Backend          | ![][backend-python] ![][backend-nodejs] ![][backend-cpp] ![][backend-c] ![][backend-mysql]     |
-| Machine Learning | ![][ml-pytorch] ![][ml-r]                                                                                      |
-| DevOps           | ![][ops-docker] ![][ops-nginx] ![][ops-vercel] ![][ops-github-action]                                                                            |
-| IDE              | ![][ide-cursor] ![][ide-vscode] ![][ide-vim]                                                                    |
-| OS               | ![][os-macos] ![][os-linux]                                                                           |
-| Other            | ![][other-markdown]                                                                                            |
-
-### ⭐️ Blogs & Contributions
-
-You can checkout my blog [here](https://blog.deepl.win).
-
-> [!NOTE]
-> Feel free to explore my articles and projects, and connect with me on GitHub!
-
-### 📝 Notes
-
-Here are some notes I took while pursuing my degree at Peking University / Peking University Health Science Center, hoping they can help those who come after me.
-
-Some of them are collaborative with my best friend [EmptyBlueBox](https://github.com/EmptyBlueBox), thanks for his help!
-
-- [Introduction-to-Computer-Science-B-2021Fall-PKUHSC / 计算概论 B](https://github.com/zhuozhiyongde/Introduction-to-Computer-Science-B-2021Fall-PKUHSC)
 
 
 
