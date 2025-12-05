@@ -1,17 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-28.68 38.12 357.2 196.16" width="357.2" height="196.16" style="display: block; max-width: 100%; height: auto; overflow: visible;">
   <defs>
     <!-- 
-      FIXED: 
-      1. Renamed ID to 'infinite-cycle-unique' to prevent conflicts with other SVGs.
-      2. Shortened duration to 3.2s (down from 3.87s) to reduce dead time at the end.
-      3. Uses 'begin="0s; infinite-cycle-unique.end"' to ensure it restarts immediately after finishing.
+      FIXED for Infinite Loop:
+      1. Duration increased to 3.6s to provide a buffer after the animations finish.
+      2. 'begin="0s; ...end"' ensures it restarts automatically.
     -->
-    <animate id="infinite-cycle-unique" begin="0s;infinite-cycle-unique.end" dur="3.2s"/>
+    <animate id="infinite-cycle-unique" begin="0s;infinite-cycle-unique.end" dur="3.6s"/>
   </defs>
   
   <g transform="translate(0, 0)">
   
-    <!-- Path 1 -->
+    <!-- Path 1 (Last to disappear) -->
     <path
       d="M16.12 156L16.12 156Q11.32 156 11.32 153.36L11.32 153.36Q11.32 151.44 13.36 149.40L13.36 149.40Q14.92 147.84 16.84 146.88Q18.76 145.92 19.24 145.92L19.24 145.92Q19.84 145.92 19.90 146.40Q19.96 146.88 19.36 147.12L19.36 147.12Q18.16 147.84 16.66 149.10Q15.16 150.36 15.16 151.80L15.16 151.80Q15.16 153.72 17.44 153.72L17.44 153.72Q20.20 153.72 23.20 152.10Q26.20 150.48 28.78 147.96Q31.36 145.44 32.98 142.86Q34.60 140.28 34.60 138.36L34.60 138.36Q34.60 136.80 33.52 135.48Q32.44 134.16 29.08 132.36L29.08 132.36Q26.80 131.04 24.70 129.60Q22.60 128.16 21.52 126.12L21.52 126.12Q20.56 127.80 19.06 130.14Q17.56 132.48 15.52 135L15.52 135Q14.80 135.72 14.08 135.72L14.08 135.72Q13.36 135.72 13.36 135.12L13.36 135.12Q13.36 134.76 13.96 133.92L13.96 133.92Q17.20 130.08 18.76 126.84Q20.32 123.60 20.92 121.92L20.92 121.92Q21.40 118.44 24.16 115.32Q26.92 112.20 30.88 109.86Q34.84 107.52 38.98 106.20Q43.12 104.88 46.36 104.88L46.36 104.88Q49.60 104.88 52.12 106.08Q54.64 107.28 54.64 109.92L54.64 109.92Q54.64 111.36 53.80 113.04L53.80 113.04Q52.72 115.32 50.20 117.12L50.20 117.12Q50.08 117.24 49.84 117.24L49.84 117.24Q48.88 117.24 48.88 116.40L48.88 116.40Q48.88 115.80 49.48 115.20L49.48 115.20Q50.44 114.36 51.04 113.16Q51.64 111.96 51.64 110.88L51.64 110.88Q51.64 108.72 49.12 108.72L49.12 108.72Q46.48 108.72 42.22 110.16Q37.96 111.60 34.36 113.88L34.36 113.88Q30.28 116.52 27.52 119.64Q24.76 122.76 24.76 125.16L24.76 125.16Q24.76 126.36 25.54 127.38Q26.32 128.40 28.60 129.72L28.60 129.72Q29.80 130.44 31.96 131.58Q34.12 132.72 35.68 133.68L35.68 133.68Q40.60 136.68 40.60 140.04L40.60 140.04Q40.60 142.80 38.20 145.62Q35.80 148.44 32.02 150.78Q28.24 153.12 24.04 154.56Q19.84 156 16.12 156Z"
       fill="#fefbfb"
@@ -24,8 +23,11 @@
       stroke-dashoffset="251"
       fill-opacity="0"
     >
+      <!-- Draw -->
       <animate attributeName="stroke-dashoffset" from="251" to="0" dur="0.169s" begin="infinite-cycle-unique.begin + 0s" fill="freeze" />
-      <animate attributeName="stroke-dashoffset" from="0" to="251" dur="0.169s" begin="infinite-cycle-unique.begin + 3.2s" fill="freeze" /> <!-- Reset at end -->
+      <!-- Undraw (Disappear) - Shifted earlier to 3.1s to finish before 3.6s loop end -->
+      <animate attributeName="stroke-dashoffset" from="0" to="251" dur="0.169s" begin="infinite-cycle-unique.begin + 3.1s" fill="freeze" />
+      
       <animate attributeName="fill-opacity" from="0" to="1" dur="0.3s" begin="infinite-cycle-unique.begin + 0.1s" fill="freeze" />
       <animate attributeName="fill-opacity" from="1" to="0" dur="0.3s" begin="infinite-cycle-unique.begin + 2.7s" fill="freeze" />
     </path>
@@ -44,7 +46,7 @@
       fill-opacity="0"
     >
       <animate attributeName="stroke-dashoffset" from="222" to="0" dur="0.169s" begin="infinite-cycle-unique.begin + 0.169s" fill="freeze" />
-      <animate attributeName="stroke-dashoffset" from="0" to="222" dur="0.169s" begin="infinite-cycle-unique.begin + 3.03s" fill="freeze" />
+      <animate attributeName="stroke-dashoffset" from="0" to="222" dur="0.169s" begin="infinite-cycle-unique.begin + 2.95s" fill="freeze" />
       <animate attributeName="fill-opacity" from="0" to="1" dur="0.3s" begin="infinite-cycle-unique.begin + 0.27s" fill="freeze" />
       <animate attributeName="fill-opacity" from="1" to="0" dur="0.3s" begin="infinite-cycle-unique.begin + 2.8s" fill="freeze" />
     </path>
@@ -63,7 +65,7 @@
       fill-opacity="0"
     >
       <animate attributeName="stroke-dashoffset" from="246" to="0" dur="0.169s" begin="infinite-cycle-unique.begin + 0.339s" fill="freeze" />
-      <animate attributeName="stroke-dashoffset" from="0" to="246" dur="0.169s" begin="infinite-cycle-unique.begin + 2.86s" fill="freeze" />
+      <animate attributeName="stroke-dashoffset" from="0" to="246" dur="0.169s" begin="infinite-cycle-unique.begin + 2.80s" fill="freeze" />
       <animate attributeName="fill-opacity" from="0" to="1" dur="0.3s" begin="infinite-cycle-unique.begin + 0.44s" fill="freeze" />
       <animate attributeName="fill-opacity" from="1" to="0" dur="0.3s" begin="infinite-cycle-unique.begin + 2.93s" fill="freeze" />
     </path>
@@ -82,7 +84,7 @@
       fill-opacity="0"
     >
       <animate attributeName="stroke-dashoffset" from="319" to="0" dur="0.169s" begin="infinite-cycle-unique.begin + 0.508s" fill="freeze" />
-      <animate attributeName="stroke-dashoffset" from="0" to="319" dur="0.169s" begin="infinite-cycle-unique.begin + 2.69s" fill="freeze" />
+      <animate attributeName="stroke-dashoffset" from="0" to="319" dur="0.169s" begin="infinite-cycle-unique.begin + 2.65s" fill="freeze" />
       <animate attributeName="fill-opacity" from="0" to="1" dur="0.3s" begin="infinite-cycle-unique.begin + 0.61s" fill="freeze" />
       <animate attributeName="fill-opacity" from="1" to="0" dur="0.3s" begin="infinite-cycle-unique.begin + 2.76s" fill="freeze" />
     </path>
@@ -101,7 +103,7 @@
       fill-opacity="0"
     >
       <animate attributeName="stroke-dashoffset" from="194" to="0" dur="0.169s" begin="infinite-cycle-unique.begin + 0.677s" fill="freeze" />
-      <animate attributeName="stroke-dashoffset" from="0" to="194" dur="0.169s" begin="infinite-cycle-unique.begin + 2.52s" fill="freeze" />
+      <animate attributeName="stroke-dashoffset" from="0" to="194" dur="0.169s" begin="infinite-cycle-unique.begin + 2.50s" fill="freeze" />
       <animate attributeName="fill-opacity" from="0" to="1" dur="0.3s" begin="infinite-cycle-unique.begin + 0.779s" fill="freeze" />
       <animate attributeName="fill-opacity" from="1" to="0" dur="0.3s" begin="infinite-cycle-unique.begin + 2.59s" fill="freeze" />
     </path>
@@ -125,7 +127,7 @@
       <animate attributeName="fill-opacity" from="1" to="0" dur="0.3s" begin="infinite-cycle-unique.begin + 2.42s" fill="freeze" />
     </path>
 
-    <!-- Path 7 -->
+    <!-- Path 7 (First to disappear) -->
     <path
       d="M229.72 194.04L229.72 194.04Q228.28 193.68 227.20 193.32L227.20 193.32Q224.92 192.12 223.96 190.62Q223.00 189.12 223.00 187.44L223.00 187.44Q223.00 184.68 224.86 181.50Q226.72 178.32 229.72 174.96L229.72 174.96Q232.72 171.36 237.34 167.64Q241.96 163.92 247.00 160.50Q252.04 157.08 255.88 154.56L255.88 154.56Q257.92 150.36 260.14 145.56Q262.36 140.76 264.40 136.26Q266.44 131.76 267.94 128.04Q269.44 124.32 270.16 122.28L270.16 122.28Q268.24 124.56 265.72 127.98Q263.20 131.40 260.20 135.18Q257.20 138.96 254.02 142.32Q250.84 145.68 247.48 147.78Q244.12 149.88 240.88 149.88L240.88 149.88Q236.08 149.88 234.22 147.42Q232.36 144.96 232.36 141.60L232.36 141.60Q232.36 139.20 233.02 136.80Q233.68 134.40 234.76 132.36L234.76 132.36Q235.48 130.92 237.04 128.52Q238.60 126.12 240.64 123.60Q242.68 121.08 244.78 119.40Q246.88 117.72 248.80 117.72L248.80 117.72Q251.08 117.72 252.28 119.34Q253.48 120.96 252.52 121.56L252.52 121.56Q250.60 122.88 247.78 125.58Q244.96 128.28 242.20 131.76L242.20 131.76Q241.48 132.72 240.46 134.76Q239.44 136.80 238.60 139.14Q237.76 141.48 237.76 143.40L237.76 143.40Q237.76 144.24 238.00 145.02Q238.24 145.80 238.84 146.16L238.84 146.16Q239.80 146.88 241.00 146.88L241.00 146.88Q242.68 146.88 244.78 145.80Q246.88 144.72 248.80 143.04L248.80 143.04Q255.52 136.56 260.80 129.48Q266.08 122.40 271.96 115.44L271.96 115.44Q272.32 114.24 274 114.24L274 114.24Q275.92 114.24 278.02 115.38Q280.12 116.52 279.76 117.24L279.76 117.24Q278.68 119.64 276.94 123.60Q275.20 127.56 273.16 132.12Q271.12 136.68 269.08 141.18Q267.04 145.68 265.36 149.28L265.36 149.28Q266.80 148.56 270.52 145.68Q274.24 142.80 278.68 138.66Q283.12 134.52 286.72 130.08L286.72 130.08Q287.44 129.36 287.80 129.36L287.80 129.36Q288.52 129.36 288.52 130.32L288.52 130.32Q288.52 131.16 287.80 132.24L287.80 132.24Q286 134.64 282.82 137.88Q279.64 141.12 275.98 144.42Q272.32 147.72 268.84 150.42Q265.36 153.12 262.84 154.56L262.84 154.56Q259.12 162.48 255.64 169.50Q252.16 176.52 249.28 180.84L249.28 180.84Q247.36 183.84 244.60 186.96Q241.84 190.08 238.60 192.18Q235.36 194.28 231.76 194.28L231.76 194.28Q231.28 194.28 230.80 194.22Q230.32 194.16 229.72 194.04ZM230.08 191.40L230.08 191.40Q231.04 191.40 232.42 190.80Q233.80 190.20 235.36 188.88L235.36 188.88Q239.92 185.16 243.04 180.18Q246.16 175.20 248.62 169.68Q251.08 164.16 253.60 159.12L253.60 159.12Q248.92 162.60 243.04 167.34Q237.16 172.08 232.36 176.76L232.36 176.76Q229.48 179.64 228.16 182.46Q226.84 185.28 226.84 187.44L226.84 187.44Q226.84 191.40 230.08 191.40Z"
       fill="#fefbfb"
@@ -139,7 +141,7 @@
       fill-opacity="0"
     >
       <animate attributeName="stroke-dashoffset" from="517" to="0" dur="0.169s" begin="infinite-cycle-unique.begin + 1.01s" fill="freeze" />
-      <animate attributeName="stroke-dashoffset" from="0" to="517" dur="0.169s" begin="infinite-cycle-unique.begin + 2.18s" fill="freeze" />
+      <animate attributeName="stroke-dashoffset" from="0" to="517" dur="0.169s" begin="infinite-cycle-unique.begin + 2.20s" fill="freeze" />
       <animate attributeName="fill-opacity" from="0" to="1" dur="0.3s" begin="infinite-cycle-unique.begin + 1.11s" fill="freeze" />
       <animate attributeName="fill-opacity" from="1" to="0" dur="0.3s" begin="infinite-cycle-unique.begin + 2.25s" fill="freeze" />
     </path>
