@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-28.68 38.120000000000005 357.2 196.16" width="357.2" height="196.16" style="display: block; max-width: 100%; height: auto; overflow: visible;">
       <defs>
-        <animate id="mobile-cycle" begin="0s;mobile-cycle.end" dur="3.58955223880597s"/>
+        <animate id="mobile-cycle" begin="0s;mobile-cycle.end" dur="3.8728813559322033s"/>
         
         <style>
           
@@ -28,7 +28,7 @@
           attributeName="stroke-dashoffset"
           from="251"
           to="0"
-          dur="0.14925373134328357s"
+          dur="0.1694915254237288s"
           begin="mobile-cycle.begin + 0s"
           fill="freeze"
         />
@@ -36,8 +36,8 @@
           attributeName="stroke-dashoffset"
           from="0"
           to="251"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 2.9402985074626864s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 3.2033898305084745s"
           fill="freeze"
         />
       
@@ -46,7 +46,7 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="mobile-cycle.begin + 0.08955223880597014s"
+          begin="mobile-cycle.begin + 0.10169491525423728s"
           fill="freeze"
         />
         <animate
@@ -54,7 +54,7 @@
           from="1"
           to="0"
           dur="0.3s"
-          begin="mobile-cycle.begin + 3s"
+          begin="mobile-cycle.begin + 3.271186440677966s"
           fill="freeze"
         />
       </path>
@@ -77,16 +77,16 @@
           attributeName="stroke-dashoffset"
           from="222"
           to="0"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 0.14925373134328357s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 0.1694915254237288s"
           fill="freeze"
         />
         <animate
           attributeName="stroke-dashoffset"
           from="0"
           to="222"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 2.791044776119403s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 3.0338983050847457s"
           fill="freeze"
         />
       
@@ -95,7 +95,7 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="mobile-cycle.begin + 0.2388059701492537s"
+          begin="mobile-cycle.begin + 0.2711864406779661s"
           fill="freeze"
         />
         <animate
@@ -103,7 +103,7 @@
           from="1"
           to="0"
           dur="0.3s"
-          begin="mobile-cycle.begin + 2.8507462686567164s"
+          begin="mobile-cycle.begin + 3.101694915254237s"
           fill="freeze"
         />
       </path>
@@ -126,16 +126,16 @@
           attributeName="stroke-dashoffset"
           from="246"
           to="0"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 0.29850746268656714s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 0.3389830508474576s"
           fill="freeze"
         />
         <animate
           attributeName="stroke-dashoffset"
           from="0"
           to="246"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 2.6417910447761193s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 2.864406779661017s"
           fill="freeze"
         />
       
@@ -144,7 +144,7 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="mobile-cycle.begin + 0.38805970149253727s"
+          begin="mobile-cycle.begin + 0.4406779661016949s"
           fill="freeze"
         />
         <animate
@@ -152,7 +152,7 @@
           from="1"
           to="0"
           dur="0.3s"
-          begin="mobile-cycle.begin + 2.701492537313433s"
+          begin="mobile-cycle.begin + 2.932203389830508s"
           fill="freeze"
         />
       </path>
@@ -175,16 +175,16 @@
           attributeName="stroke-dashoffset"
           from="319"
           to="0"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 0.4477611940298507s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 0.5084745762711864s"
           fill="freeze"
         />
         <animate
           attributeName="stroke-dashoffset"
           from="0"
           to="319"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 2.4925373134328357s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 2.694915254237288s"
           fill="freeze"
         />
       
@@ -193,7 +193,7 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="mobile-cycle.begin + 0.5373134328358209s"
+          begin="mobile-cycle.begin + 0.6101694915254237s"
           fill="freeze"
         />
         <animate
@@ -201,7 +201,7 @@
           from="1"
           to="0"
           dur="0.3s"
-          begin="mobile-cycle.begin + 2.5522388059701493s"
+          begin="mobile-cycle.begin + 2.7627118644067794s"
           fill="freeze"
         />
       </path>
@@ -224,16 +224,16 @@
           attributeName="stroke-dashoffset"
           from="194"
           to="0"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 0.5970149253731343s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 0.6779661016949152s"
           fill="freeze"
         />
         <animate
           attributeName="stroke-dashoffset"
           from="0"
           to="194"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 2.343283582089552s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 2.5254237288135593s"
           fill="freeze"
         />
       
@@ -242,7 +242,7 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="mobile-cycle.begin + 0.6865671641791045s"
+          begin="mobile-cycle.begin + 0.7796610169491525s"
           fill="freeze"
         />
         <animate
@@ -250,7 +250,7 @@
           from="1"
           to="0"
           dur="0.3s"
-          begin="mobile-cycle.begin + 2.4029850746268657s"
+          begin="mobile-cycle.begin + 2.5932203389830506s"
           fill="freeze"
         />
       </path>
@@ -273,16 +273,16 @@
           attributeName="stroke-dashoffset"
           from="445"
           to="0"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 0.7462686567164178s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 0.847457627118644s"
           fill="freeze"
         />
         <animate
           attributeName="stroke-dashoffset"
           from="0"
           to="445"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 2.1940298507462686s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 2.3559322033898304s"
           fill="freeze"
         />
       
@@ -291,7 +291,7 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="mobile-cycle.begin + 0.835820895522388s"
+          begin="mobile-cycle.begin + 0.9491525423728813s"
           fill="freeze"
         />
         <animate
@@ -299,7 +299,7 @@
           from="1"
           to="0"
           dur="0.3s"
-          begin="mobile-cycle.begin + 2.253731343283582s"
+          begin="mobile-cycle.begin + 2.423728813559322s"
           fill="freeze"
         />
       </path>
@@ -322,16 +322,16 @@
           attributeName="stroke-dashoffset"
           from="517"
           to="0"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 0.8955223880597014s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 1.0169491525423728s"
           fill="freeze"
         />
         <animate
           attributeName="stroke-dashoffset"
           from="0"
           to="517"
-          dur="0.14925373134328357s"
-          begin="mobile-cycle.begin + 2.044776119402985s"
+          dur="0.1694915254237288s"
+          begin="mobile-cycle.begin + 2.1864406779661016s"
           fill="freeze"
         />
       
@@ -340,7 +340,7 @@
           from="0"
           to="1"
           dur="0.3s"
-          begin="mobile-cycle.begin + 0.9850746268656716s"
+          begin="mobile-cycle.begin + 1.11864406779661s"
           fill="freeze"
         />
         <animate
@@ -348,7 +348,7 @@
           from="1"
           to="0"
           dur="0.3s"
-          begin="mobile-cycle.begin + 2.1044776119402986s"
+          begin="mobile-cycle.begin + 2.254237288135593s"
           fill="freeze"
         />
       </path>
