@@ -9,7 +9,7 @@ A curious developer passionate about Artificial Intelligence & Web Development.
 I am an undergraduate student & been master 
 
 [![][social-bilibili-shield]][social-bilibili-link]
-[![][social-wechat-shield]][social-wechat-link]
+
 [![][social-email-shield]][social-email-link]
 
 ![][split]
