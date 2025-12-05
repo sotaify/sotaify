@@ -2,11 +2,11 @@
 
 ![][banner]
 
-<h1 align="center"><img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50px" style="max-width: 100%;"> Hi there, I'm 𝔸𝕣𝕥𝕙𝕒𝕝𝕤</h1>
+<h1 align="center"><img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50px" style="max-width: 100%;"> Hi there, I'm </h1>
 
 A curious developer passionate about Artificial Intelligence & Web Development.
 
-I am an undergraduate student & incoming Ph.D @ [Peking University](https://pku.edu.cn).
+I am an undergraduate student & been master 
 
 [![][social-bilibili-shield]][social-bilibili-link]
 [![][social-wechat-shield]][social-wechat-link]
@@ -35,7 +35,7 @@ I am an undergraduate student & incoming Ph.D @ [Peking University](https://pku.
 
 ### ⭐️ Blogs & Contributions
 
-You can checkout my blog [here](https://arthals.ink).
+You can checkout my blog [here](https://blog.deepl.win).
 
 > [!NOTE]
 > Feel free to explore my articles and projects, and connect with me on GitHub!
@@ -49,16 +49,7 @@ Some of them are collaborative with my best friend [EmptyBlueBox](https://github
 - [Introduction-to-Computer-Science-B-2021Fall-PKUHSC / 计算概论 B](https://github.com/zhuozhiyongde/Introduction-to-Computer-Science-B-2021Fall-PKUHSC)
 
 
-### 👀 My GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zhuozhiyongde&show_icons=true&theme=radical&title_color=FFE652&text_color=71DFE7&hide_border=1&border_radius=10" alt="zhuozhiyongde GitHub Stats"><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zhuozhiyongde&layout=compact&hide=html&title_color=FFE652&theme=radical&text_color=71DFE7&hide_border=1&border_radius=10" alt="zhuozhiyongde Top Languages">
-</div>
-
-<div align="center">
-  <img src="https://github-contrib-stats.vercel.app/zhuozhiyongde/created.svg" alt="Repos I created">
-</div>
 
 Hit me up anytime and let's explore new ideas together! 😺✨
 
