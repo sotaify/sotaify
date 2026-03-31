@@ -6,7 +6,7 @@
 
 A curious developer passionate about Artificial Intelligence & Web Development.
 
-I am an student & been master 
+I am a student & been master 
 
 [![][social-bilibili-shield]][social-bilibili-link]
 [![][social-email-shield]][social-email-link]
