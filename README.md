@@ -24,8 +24,10 @@ I am a student
 May the force be with you!
 
 <div align="right">
+<!--
+  ![][signature]
+-->
 
-![][signature]
 
 </div>
 
