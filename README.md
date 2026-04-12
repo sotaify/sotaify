@@ -35,7 +35,11 @@ May the force be with you!
 
 [banner]: ./assets/assets.gif
 [signature]: ./assets/signature.svg
-[social-bilibili-link]: https://space.bilibili.com/76496
+<!--
+  [social-bilibili-link]: https://space.bilibili.com/76496
+-->
+
+[social-bilibili-link]: https://space.bilibili.com
 [social-bilibili-shield]: https://img.shields.io/badge/-Bilibili-black?labelColor=black&logo=bilibili&logoColor=white&style=flat-square
 [social-wechat-link]: #
 [social-email-link]: mailto:admin@devifys.com
